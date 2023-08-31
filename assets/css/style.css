@@ -1,0 +1,51 @@
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #0055b7;
+    height: 120px;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.row{
+    display: flex;
+}
+.logo{
+    width: 15%;
+    height: 120px;
+    text-align: center;
+}
+.logo img{
+    margin-top: 20px;
+}
+.menu-principal{
+    width: 60%;
+    height: 120px;
+    background-color: brown;
+}
+.logos-inst{
+    width: 25%;
+    height: 120px;
+}
+.logos-inst img{
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+.menu-nav{
+    float: right;
+}
+.menu-nav > ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu-nav > ul > li{
+    float: left;
+    margin: 10px;
+}
+.menu-nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
